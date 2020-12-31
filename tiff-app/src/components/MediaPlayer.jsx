@@ -6,7 +6,7 @@ const MediaPlayer = () => {
     return (
         <div className='music'>
             <img className='music-clouds' src={clouds} alt='clouds' />
-            <p className='music-text'>Music pending!</p>
+            <p id='music-link' className='music-text'>Music pending!</p>
         </div>
     )
 }

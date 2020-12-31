@@ -16,11 +16,17 @@
 }
 
 .nav {
-    font-size: 1.5em;
-    color: #add8e6;
-    word-spacing: 3em;;
+    
+    
+    
 }
 
+.nav-link {
+    text-decoration: none;
+    color: #add8e6;
+    font-size: 1em;
+    word-spacing: .5em;
+}
 /* .header-background {
     height: 30vh;
     width: 100vw;

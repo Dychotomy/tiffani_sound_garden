@@ -1,8 +1,11 @@
 import React from 'react'
+import './footer.css'
 
 const Footer = () => {
     return (
-        <p>2020 Tiffani Allen (add social media links)</p>
+        <div className='footer'>
+            <p>2020 Tiffani Allen</p>
+        </div>
     )
 }
 
