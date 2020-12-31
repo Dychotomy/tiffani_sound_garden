@@ -1,0 +1,28 @@
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    height: 30vh;
+    width: 100vw;
+    background-color: #800080;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 4em;
+    color: #add8e6;
+}
+
+.nav {
+    font-size: 1.5em;
+    color: #add8e6;
+    word-spacing: 3em;;
+}
+
+/* .header-background {
+    height: 30vh;
+    width: 100vw;
+    object-fit: cover;
+} */
