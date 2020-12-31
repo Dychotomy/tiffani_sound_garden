@@ -1,0 +1,30 @@
+.body {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffdaa9;
+}
+
+.body-portrait {
+    width: 30vw;
+    object-fit: cover;
+}
+
+.body-about {
+    margin: 25px;
+    padding: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    align-self: center;
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .body {
+      flex-direction: column;
+    }
+
+    .body-portrait {
+        width: 100vw;
+        object-fit: cover;
+    }
+  }
